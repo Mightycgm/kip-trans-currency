@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แปลงสกุลเงิน</title>
+    <link rel="stylesheet" type="text/css" href="money.css">
+    <link href='https://fonts.googleapis.com/css?family=Sarabun' rel='stylesheet'>
+</head>
+<body>
+    <h2>แปลงสกุลเงิน บาท -> กีบ</h2>
+    <form>
+        <div class="top">
+        <label class="label1">สกุลเงินบาท (bath)</label> <br> 
+        <input type="text" id="number1">
+    </div>
+    <input type="button" value="แปลงสกุลเงิน" onclick="del()" id="1" class="buttontrans">
+    </form>
+    <div class="bottom">
+    <p style="font-size: 26;" >1฿ (บาท) = 590.81₭ (กีบ) <p>
+    <p style="font-size: 26;" >อัตราแลกเปลี่ยนเงินของตลาด ณ วันที่ 13/06/2567 <p>
+    <p style="font-size: 26;" >สกุลเงินกีบ(LAK)</p>
+    <label id="result"></label>
+</div>
+    <script src="money.js"></script>
+</body>
+</html>
